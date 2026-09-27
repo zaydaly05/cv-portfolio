@@ -1,0 +1,308 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Zayd Ali Mohamed} \\ \vspace{1pt}
+    Maadi, Cairo \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 01017741741 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{zaydaly0501@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/zayd-ali-17a85a1a0}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/zaydaly05}}
+    \vspace{-8pt}
+\end{center}
+%-----------Summary-----------
+\section{Summary}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+  {}{}
+  {\parbox{\textwidth}{
+    I am a motivated Senior Computer Science student who loves technology and problem solving.\\
+    I enjoy learning new skills, working on projects, and being part of workshops to improve my knowledge and grow in the software development field.
+  }}{}
+
+  \resumeSubHeadingListEnd
+
+   
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+     \resumeSubheading
+      {Cairo Higher Institute }{August 2025 -- September 2025}
+      {Full-Time Internship in IT Department}{1st Settlement, Cairo}
+      \resumeItemListStart
+        \resumeItem{Creating and managing institutional user email accounts using the official domain of the institute.}
+        \resumeItem{Editing and updating the front-end of the institute’s website using WordPress.}
+       \resumeItem{Managing and maintaining the institute’s official social media accounts.}
+       \resumeItem{Clipping, editing, and producing videos and photos for digital content.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {TAQA Arabia}{July 2025 -- August 2025}
+      {Full-Time Internship in Software Development Department}{Maadi, Cairo}
+      \resumeItemListStart
+        \resumeItem{Developed an InGaz API Mobile Application}
+       
+      
+      \resumeItemListEnd
+    \resumeSubheading
+      {TAQA Arabia}{August 2024 -- September 2024}
+      {Full-Time Internship in IT Department}{Maadi, Cairo}
+      \resumeItemListStart
+        \resumeItem{Devices' Software Management}
+        \resumeItem{All Users' accounts Management}
+      
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ACPC Club}{2023- Currently}
+      {Member in ACPC Club}{}
+  \resumeSubHeadingListEnd
+
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IEEE Club}{2023- Currently}
+      {Member in IEEE Club}{}
+  \resumeSubHeadingListEnd
+\vspace{1pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Car Rental Website} $|$ \emph{HTML, CSS, MongoDB, Nodejs, JavaScript}}{May 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive e-commerce platform for users to browse and rent cars.}
+            \resumeItem{ Implemented features like user authentication, product catalog management, and order processing.}
+            \resumeItem{ Utilized MongoDB for efficient data management and storage of products, users, and orders.}
+            
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Restaurant Management System} $|$ \emph{Java, JavaFX}}{December 2024}
+          \resumeItemListStart
+            \resumeItem{ Created a recruitment system with a graphical user interface for managing job postings, applications, and interviews.}
+            \resumeItem{Utilized Java for core functionality and JavaFX for the user interface.}
+        
+          \resumeItemListEnd 
+         \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{In Gaz API System} $|$ \emph{C\#}, Flutter}{July 2025}
+          \resumeItemListStart
+            \resumeItem{ Built a Flutter-based mobile application frontend, integrated with a .NET Core Web API backend.}
+            \resumeItem{ Developed the backend using C\# with MVC pattern, implementing secure role-based access and CRUD operations.}
+            \resumeItem{ Utilized Swagger for API testing and validation to ensure smooth integration.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+      {\textbf{Employee Attendance and Leave Management System} $|$ \emph{HTML, CSS, PHP, MySQL}}{December 2025}
+      \resumeItemListStart
+        \resumeItem{Developed a web-based employee attendance and leave management system to automate tracking and approval processes.}
+        \vspace{-10pt}
+        \resumeItem{Implemented event and announcement features for birthdays, anniversaries, and company updates.}
+        \resumeItem{Designed and maintained a secure relational database with role-based access control.}
+    
+      \resumeItemListEnd 
+     \vspace{-13pt}
+
+     \resumeProjectHeading
+          {\textbf{Sleeping Alert System} $|$ \emph{Python, Flutter}}{December 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a sleeping alert system using Python and Flutter as part of an HCI course.}
+            \resumeItem{ Applied usability and interaction design principles to deliver effective alert mechanisms.}
+            \resumeItem{Built a responsive mobile interface for real-time alerts.}
+        
+          \resumeItemListEnd 
+         \vspace{-13pt}
+     \resumeProjectHeading
+      {\textbf{Food Ordering Management System} $|$ \emph{SpringBoot, Tailwind, React, MongoDB}}{May 2026}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack food ordering system using Java (Spring Boot) for backend and React with Tailwind CSS for a responsive, user-friendly frontend interface.}
+        \resumeItem{ Designed and implemented RESTful APIs with Spring Boot, enabling core features such as user authentication, menu management, cart operations, and order processing, integrated with MongoDB for efficient data storage.}
+        \resumeItem{Built role-based functionality for Admin and Customer including CRUD operations, order tracking, and basic analytics for example most purchased items and profit insights.}
+    
+      \resumeItemListEnd 
+     \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-2pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: PHP, C ,Python, Java, HTML, CSS, JavaScript, SQL, C++, C\#, Flutter, Dart, Tailwind} \\
+          \textbf{Databases}{: SQL, MongoDB, Firebase} \\
+     \textbf{Developer Tools}{: VS Code, Apache NetBeans, XAMPP, Git, GitHub, Android Studio} \\
+     \textbf{Frameworks}{: NodeJs, ExpressJs, SpringBoot, React} \\
+        \textbf{Microsoft Office 365}{: Word, Excel, Powerpoint, Access} \\
+     \textbf{Design Tools}{: Adobe Photoshop, Adobe InDesign, Adobe Premiere, Filmora} \\
+     \textbf{Data Analysis}{: Orange Data Mining} \\
+  \textbf{Other Skills}{: Data Structures, OOP} \\
+
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Soft Skills}
+    
+            \resumeItemListStart
+                \resumeItem{Strong Teamwork Abilities}
+                \resumeItem{Problem-Solving}
+                \resumeItem{Time Management and Organizational Skills}
+            \resumeItemListEnd
+        
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Misr International University }{September 2023 -- June 2027}
+      {Bachelor of Science in Computer Science}{}
+  \resumeSubHeadingListEnd
+
+
+  
+%-----------Languages---------------
+\section{Languages}
+    
+            \resumeItemListStart
+                \resumeItem{Arabic: Native}
+                \resumeItem{Engilsh: Fluent}
+                \resumeItem{French: Beginner}
+            \resumeItemListEnd
+        
+
+
+\end{document}
+
+
+
+
